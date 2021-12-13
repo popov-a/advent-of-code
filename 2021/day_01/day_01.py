@@ -2,10 +2,8 @@ from typing import List
 
 class Day_01:
     def read_input(self, file_name: str):
-        self.nums = list()
         with open(file_name) as f:
-            for line in f:
-                self.nums.append(int(line.strip()))
+            self.nums = [int(x.strip()) for x in f.readlines()]
         return None
 
     def part1(self) -> int:

@@ -2,10 +2,8 @@ from typing import List
 
 class Day_02:
     def read_input(self, file_name: str):
-        self.cmds = list()
         with open(file_name) as f:
-            for line in f:
-                self.cmds.append(line.strip())
+            self.cmds = [x.strip() for x in f.readlines()]
         return None
 
     def part1(self) -> int:
