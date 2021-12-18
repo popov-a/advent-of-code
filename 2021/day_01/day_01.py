@@ -1,5 +1,3 @@
-from typing import List
-
 class Day_01:
     def read_input(self, file_name: str):
         with open(file_name) as f:
