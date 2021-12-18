@@ -1,2 +1,2 @@
 # advent-of-code
-Advent of Code problem solution https://adventofcode.com/
+Advent of Code problem solutions https://adventofcode.com/
