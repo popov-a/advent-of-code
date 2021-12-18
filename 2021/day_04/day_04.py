@@ -1,6 +1,4 @@
 from typing import List
-from collections import defaultdict
-
 
 class Board:
     def __init__(self, nums: List[List[int]]):
@@ -66,9 +64,6 @@ class Day_04:
                 if not board.bingo and board.remove(num):
                     last_win = board.sum * num
         return last_win
-
-
-
 
 
 solution = Day_04()

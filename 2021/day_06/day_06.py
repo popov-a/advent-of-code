@@ -1,4 +1,3 @@
-from typing import List
 from collections import Counter
 
 class Day_06:
@@ -13,7 +12,6 @@ class Day_06:
             fishs[8] = fishs_0
             fishs[6] = fishs.get(6, 0) + fishs_0
         return sum(fishs.values())
-
 
     def part2(self, file_name: str) -> int:
         with open(file_name) as f:

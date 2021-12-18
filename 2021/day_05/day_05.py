@@ -1,6 +1,3 @@
-from typing import List
-from collections import defaultdict
-
 class Day_05:
     def part1(self, file_name: str) -> int:
         matrix = [[0] * 1000 for i in range(1000)]
@@ -21,7 +18,6 @@ class Day_05:
                         if matrix[y1][x] == 2:
                             max_count += 1
         return max_count
-
 
     def part2(self, file_name: str) -> int:
         matrix = [[0] * 1000 for i in range(1000)]
@@ -54,13 +50,8 @@ class Day_05:
         return max_count
 
 
-
-
-
 solution = Day_05()
-
 print(solution.part1('test.txt'))
 print(solution.part2('test.txt'))
-
 print(solution.part1('input.txt'))
 print(solution.part2('input.txt'))

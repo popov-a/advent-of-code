@@ -1,6 +1,3 @@
-from typing import List
-from collections import defaultdict
-
 class Day_03:
     def read_input(self, file_name: str):
         with open(file_name) as f:
@@ -62,8 +59,6 @@ class Day_03:
             j += 1
         CO2 = nums[0]
         return int(oxygen, 2) * int(CO2, 2)
-
-
 
 
 solution = Day_03()
