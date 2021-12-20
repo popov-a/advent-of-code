@@ -1,7 +1,7 @@
 class Day_02:
     def read_input(self, file_name: str):
         with open(file_name) as f:
-            self.cmds = [x.strip() for x in f.readlines()]
+            self.cmds = [x.strip() for x in f]
         return None
 
     def part1(self) -> int:
