@@ -1,4 +1,4 @@
-## Day 22: Reactor Reboot https://adventofcode.com/2021/day/22
+## Day 22: Reactor Reboot
 ### Part 1
 Operating at these extreme ocean depths has overloaded the submarine's reactor; it needs to be rebooted.
 
