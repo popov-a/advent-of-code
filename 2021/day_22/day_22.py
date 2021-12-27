@@ -136,4 +136,4 @@ assert ans_test_2 == 2758514936282235
 
 ans_part_2 = solution.part2('input.txt')
 print(ans_part_2)
-assert ans_test_2 == 1282401587270826
+assert ans_part_2 == 1282401587270826
